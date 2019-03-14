@@ -24,7 +24,10 @@
     font-style: normal;
 }
 
-*{font-family: 'Roboto', sans-serif;}
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #4b4b4b;
+}
 body{margin: 0}
 .btn{
     font-size: 16px;
@@ -41,9 +44,32 @@ body{margin: 0}
     width: 100%;
     padding: 0 15px;
     margin:  0 auto;
+    box-sizing: border-box;
 
 }
-header{}
+.title{
+    font-size: 30px;
+    color:#4a4a4a;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+.right-line,.left-line{
+    background: #e9e9e4;
+    max-width: 960px;
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    top:0;
+}
+.right-line{
+    right: 0;
+}
+.left-line{
+    left: 0;
+}
+header{
+}
     header nav{
         display: flex;
         padding: 25px 0;
@@ -54,7 +80,6 @@ header{}
         font-size: 16px;
         font-weight: bold;
         text-decoration: none;
-        color: #4b4b4b;
         padding-left: 80px;
     }
     header:after{
@@ -64,11 +89,14 @@ header{}
         background-size: 100%;
         height: 20px;
         width: 100%;
+        margin-bottom: -4px;
     }
 
 main{}
     .first_slider{
         position: relative;
+        width: 100%;
+        overflow: hidden
     }
         .first_slider .slide{
             height: 510px;
@@ -89,10 +117,12 @@ main{}
                 font-size: 48px;
                 font-family: 'Alegreya Sans';
                 font-weight: 500;
+                text-transform: uppercase;
                 color:#fff;
             }
                 .first_slider .slide h2 b{
                     font-weight: 900;
+                    color:#fff;
                 }
     .first_slider .slick-dots{
         position: absolute;
@@ -113,3 +143,99 @@ main{}
                 background: #928f7a;
             }
             .first_slider .slick-dots li button:before{display: none}
+
+    .galery{
+        position: relative;
+        margin-top: 96px;
+        padding-top: 92px;
+    }
+        .galery .galery_list{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0 100px 0;
+        }
+            .galery .galery_list .galery_list_item{
+                max-width: 270px;
+                width: 100%;
+            }
+                .galery .galery_list .galery_list_item img{
+                    display: inline-block;
+                }
+                .galery .galery_list .galery_list_item h3{
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    margin: 15px 0;
+                }
+                .galery .galery_list .galery_list_item p{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+     .about_us{
+         position: relative;
+     }
+        .about_us .container{
+            display: flex;
+            justify-content: space-between;
+            padding: 93px 0 106px;
+        }
+        .about_us .about_us_text{
+            margin-right: 30px;
+        }
+            .about_us .about_us_text{
+                text-align: center;
+                font-size: 18px;
+                font-weight: 100;
+            }
+        .about_us .about_us_images{
+            font-size: 1px;
+            display: flex;
+            justify-content: space-between;
+        }
+            .about_us .about_us_images .big_img{
+                margin-right: 10px;
+            }
+
+    .contacts{
+        position: relative;
+    }
+        .contacts .container{
+            padding: 96px 0 100px 0;
+        }
+            .contacts .container .contacts_box{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+            }
+                .contacts .container .contacts_box .contacts_box_text{
+                    margin-right: 45px;
+                }
+                    .contacts .container .contacts_box .contacts_box_text p{
+                        font-size: 18px;
+                        font-weight: 100;
+                        text-align: center;
+                        margin: 0;
+                    }
+                        .contacts .container .contacts_box .contacts_box_text p a{
+                            text-decoration: none;
+                            font-size: 18px;
+                        }
+                    .contacts .container .contacts_box .contacts_box_map{
+                        min-width: 400px;
+                        max-width: 550px;
+                        width: 100%;
+                    }
+    footer{}
+        footer nav{
+            display: flex;
+            justify-content: center;
+            padding: 25px 0;
+            background: #4b4b4b;
+        }
+            footer nav a{
+                font-size: 16px;
+                font-weight: bold;
+                padding-right: 80px;
+                color: #fff;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
