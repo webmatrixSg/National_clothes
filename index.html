@@ -7,9 +7,20 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div id="shadow"></div>
+<div id="contact-form" class="open">
+    <h2>Оставьте свой номер и мы сами свяжемся с Вами</h2>
+    <div id="close-form"><i class="fa fa-times-circle"></i></div>
+    <form>
+        <input type="text"  name="user_name" placeholder="Имя">
+        <input type="text" name="user_tel" placeholder="Номер телефона" required="">
+        <button class="btn" type="submit">Отправить</button>
+    </form>
+</div>
 <header>
     <div class="container">
         <nav class="">
@@ -25,7 +36,7 @@
         <div class="slide" style="background-image: url(img/slide.png);">
             <div>
                 <h2><b>пошив национальной одежды</b> на заказ</h2>
-                <a href="#" class="btn">Заказать</a>
+                <a href="#" class="btn back_call">Заказать</a>
             </div>
         </div>
         <div class="slide" style="background-image: url(img/slide.png);">
@@ -88,7 +99,7 @@
                 <div class="big_img">
                     <img src="img/about1.png" alt="">
                 </div>
-                <div>
+                <div class="small_images">
                     <img src="img/about2.png" alt="" style="margin-bottom: 10px"><img src="img/about3.png" alt="">
                 </div>
             </div>
@@ -125,6 +136,7 @@
 </footer>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/sweetalert.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

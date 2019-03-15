@@ -29,6 +29,64 @@
     color: #4b4b4b;
 }
 body{margin: 0}
+.hidden{
+    overflow: hidden;
+}
+#shadow{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+}
+#contact-form{
+    z-index: 101;
+    position: fixed;
+    top: 30%;
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 25px;
+    left: calc(50% - 200px);
+    border-radius: 3px;
+    display: none;
+}
+    #contact-form h2{
+        font-size: 24px;
+        text-align: center;
+        margin: 15px 0;
+    }
+        #contact-form form{}
+            #contact-form form input{
+                padding: 15px;
+                font-size: 16px;
+                width: 100%;
+                box-sizing: border-box;
+                margin: 0 0 15px 0;
+                border-radius: 3px;
+                border:1px solid #e0e0e0;
+            }
+            #contact-form form button{
+                color: #4a4a4a;
+                margin: 0 auto;
+                cursor: pointer;
+                border: 1px solid #e0e0e0;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+         #close-form{
+             position: absolute;
+             right: 10px;
+             top:10px;
+             font-size: 18px;
+             font-weight: bold;
+             cursor: pointer;
+         }
 .btn{
     font-size: 16px;
     font-weight: bold;
@@ -81,6 +139,7 @@ header{
         font-weight: bold;
         text-decoration: none;
         padding-left: 80px;
+        text-transform: uppercase;
     }
     header:after{
         content: '';
@@ -220,7 +279,6 @@ main{}
                             font-size: 18px;
                         }
                     .contacts .container .contacts_box .contacts_box_map{
-                        min-width: 400px;
                         max-width: 550px;
                         width: 100%;
                     }
@@ -239,3 +297,104 @@ main{}
                 text-transform: uppercase;
                 text-decoration: none;
             }
+
+
+@media only screen  and (max-width : 780px) {
+    .galery .galery_list, .about_us .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_us_images{
+        justify-content: center!important;
+    }
+
+    .contacts .container .contacts_box .contacts_box_map{
+        min-width: 300px;
+    }
+
+}
+@media only screen  and (max-width : 480px) {
+    .galery .galery_list, .about_us > div, .about_us_images, .contacts .container .contacts_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .galery .galery_list .galery_list_item{
+        margin-bottom: 20px;
+    }
+    .first_slider .slide h2{
+        font-size: 35px;
+    }
+    #contact-form{
+        max-width: 320px;
+        left: calc(50% - 160px);
+        box-sizing: border-box;
+    }
+    #contact-form h2{
+        font-size: 20px;
+    }
+    header{
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index: 99;
+        background: #fff;
+    }
+    header:after{
+        margin-bottom: -6px;
+    }
+    header nav , footer nav{
+        justify-content: center;
+    }
+    header nav a{
+        font-size: 13px;
+        padding-left: 26px;
+    }
+         footer nav a{
+             font-size: 13px;
+             padding-right: 15px;
+         }
+    header nav a:first-child{
+        padding: 0;
+    }
+    main{
+        margin-top: 84px;
+    }
+    .galery{
+        margin-top: 58px;
+        padding-top: 40px;
+    }
+    .galery .galery_list{
+        margin-bottom: 50px;
+    }
+    .about_us .container{
+        padding: 40px 0 50px 0;
+    }
+    .about_us .about_us_text{
+        margin-right: 0;
+        padding: 0 15px;
+        font-size: 17px;
+    }
+    .about_us .about_us_images .big_img{
+        margin-right: 0;
+    }
+    .small_images, .big_img{
+        padding: 0 15px;
+    }
+    .small_images{
+        margin-top: 10px;
+    }
+    .small_images img{
+            width: 50%;
+            vertical-align: top;
+        }
+    .contacts .container{
+        padding: 40px 0 50px 0;
+    }
+    .contacts_box_text{
+        margin-right: 0!important;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+}
+
+
