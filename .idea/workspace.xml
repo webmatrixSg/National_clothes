@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf0d8313-6fa5-42f0-a719-6d0d1281103b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/mail.php" afterPath="$PROJECT_DIR$/mail.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,12 +50,26 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="477">
                   <caret line="322" column="5" lean-forward="false" selection-start-line="322" selection-start-column="5" selection-end-line="322" selection-end-column="5" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mail.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="663">
+                  <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+                  <folding>
+                    <marker date="1552897997850" expanded="true" signature="319:509" ph="..." />
+                    <marker date="1552897997850" expanded="true" signature="331:417" ph="..." />
+                    <marker date="1552897997850" expanded="true" signature="429:500" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -102,6 +116,7 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/mail.php" />
       </list>
     </option>
   </component>
@@ -189,7 +204,7 @@
       <workItem from="1552578509407" duration="131000" />
       <workItem from="1552633658518" duration="3758000" />
       <workItem from="1552661385034" duration="2966000" />
-      <workItem from="1552894891805" duration="1925000" />
+      <workItem from="1552894891805" duration="2158000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1552559100354</created>
@@ -205,11 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552664318250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="monday commit">
+      <created>1552897783501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552897783501</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23073000" />
+    <option name="totallyTimeSpent" value="23306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -242,7 +264,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+    <MESSAGE value="monday commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="monday commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -423,6 +439,18 @@
         <state relative-caret-position="477">
           <caret line="322" column="5" lean-forward="false" selection-start-line="322" selection-start-column="5" selection-end-line="322" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1552897997850" expanded="true" signature="319:509" ph="..." />
+            <marker date="1552897997850" expanded="true" signature="331:417" ph="..." />
+            <marker date="1552897997850" expanded="true" signature="429:500" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

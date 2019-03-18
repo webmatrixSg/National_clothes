@@ -33,7 +33,7 @@ $message = '
 </html>';
 
 $headers  = "Content-type: text/html; charset=utf-8 \r\n";
-$headers .= "От кого: Windeco Лэндинг <windeco@webmatrix.by>\r\n";
+$headers .= "От кого:  Лэндинг Народные костюмы <windeco@webmatrix.by>\r\n";
 
 mail($emailAdmin, $subject, $message, $headers);
 
