@@ -299,7 +299,11 @@ main{}
             }
 
 
-@media only screen  and (max-width : 780px) {
+@media (min-width: 481px)  and (max-width : 780px) {
+    .about_us_text{
+        padding: 0 15px;
+        margin-right: 0!important;
+    }
     .galery .galery_list, .about_us .container{
         flex-direction: column;
         align-items: center;
@@ -307,9 +311,15 @@ main{}
     .about_us_images{
         justify-content: center!important;
     }
+    .small_images{
+        max-width: 210px;
+    }
 
     .contacts .container .contacts_box .contacts_box_map{
         min-width: 300px;
+    }
+    .contacts .container .contacts_box{
+        padding:  0 15px;
     }
 
 }
@@ -338,6 +348,9 @@ main{}
         width: 100%;
         z-index: 99;
         background: #fff;
+    }
+    header .container{
+        padding: 0;
     }
     header:after{
         margin-bottom: -6px;
@@ -377,16 +390,17 @@ main{}
     .about_us .about_us_images .big_img{
         margin-right: 0;
     }
-    .small_images, .big_img{
-        padding: 0 15px;
+    .about_us .about_us_images .big_img img{
+        width: 100%;
     }
+
     .small_images{
-        margin-top: 10px;
+        padding:  16px;
     }
     .small_images img{
-            width: 50%;
-            vertical-align: top;
-        }
+        width: 50%;
+        vertical-align: top;
+    }
     .contacts .container{
         padding: 40px 0 50px 0;
     }
@@ -394,6 +408,9 @@ main{}
         margin-right: 0!important;
         padding: 0 15px;
         margin-bottom: 20px;
+    }
+    .contacts .container .contacts_box{
+        padding:  0 15px;
     }
 }
 
