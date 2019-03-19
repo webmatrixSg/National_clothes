@@ -146,6 +146,9 @@ header{
         padding-left: 80px;
         text-transform: uppercase;
     }
+    header nav a:hover{
+        color: #000;
+    }
     header:after{
         content: '';
         display: inline-block;
@@ -160,7 +163,7 @@ main{}
     .first_slider{
         position: relative;
         width: 100%;
-        overflow: hidden
+        overflow: hidden;
     }
         .first_slider .slide{
             height: 510px;
